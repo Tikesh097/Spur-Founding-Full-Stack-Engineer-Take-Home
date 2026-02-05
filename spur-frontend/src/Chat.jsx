@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 
-const API_URL = "http://localhost:4000/chat/message";
+const API_URL = "https://spur-founding-full-stack-engineer-take.onrender.com";
 
 export default function Chat() {
   const [messages, setMessages] = useState([]);
